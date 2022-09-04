@@ -55,6 +55,7 @@ module.exports = {
 			colors: {
 				'matte-black': '#28282B',
 				'matte-purple': '#8658A5',
+				'silver-grey': '#DFDFDE',
 			},
 
 			fontFamily: {
