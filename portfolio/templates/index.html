@@ -38,7 +38,7 @@
 	
 					<div class="flex justify-center h-8 text-center">
 						<a class="w-auto px-3 py-1 border-matte-purple border-l-3 border-r-3">
-							<span class="text-type text-base text-white font-poppins select-none" data-wait="3000" data-words='["Python Developer", "Open Source Contributor", "Data Scientist", "Machine Learning Engineer"]'></span>
+							<span class="text-type text-base text-white font-poppins select-none" data-wait="3000" data-words='["Data Engineer", "Python Developer", "Open Source Contributor", "Data Scientist", "Machine Learning Engineer"]'></span>
 						</a>
 					</div>
 					
@@ -94,8 +94,8 @@
 
 
 		<!--  --------- About Section ---------  -->
-		<section class="bg-silver-grey py-10" id="about">
-			<div class="grid place-items-center h-full">
+		<section class="bg-silver-grey py-10 min-h-screen" id="about">
+			<div class="grid place-items-center">
 
 				<div class="mx-8 md:mx-10 lg:mx-28 xl:mx-52 space-y-8 sm:space-y-10 lg:space-y-14">
 
@@ -150,238 +150,333 @@
 
 					</div>
 
-
-					<!--  --------- Skills ---------  -->
-					<div class="pt-3 sm:pt-0 md:px-10 lg:px-12 space-y-8">
-						<h3 class="mb-4 text-base font-semibold font-poppins text-matte-purple uppercase tracking-[.15em] select-none">Skills</h3>
-
-						<div class="flex flex-col sm:flex-row mx-5 md:justify-between space-y-8 md:space-y-0">
-
-							<!-- Programming & Markup Languages -->
-							<div class="relative w-full md:w-[45%]">
-								<div class="absolute top-[5%] h-[90%] border-r-3 border-matte-black">
-									<div class="whitespace-nowrap rotate-[270deg] top-1/2 text-sm absolute -ml-[8.5rem] font-poppins font-medium text-matte-black select-none">Programming & Markup Languages</div>
-								</div>
-
-								<div class="flex flex-wrap sm:flex-none sm:grid sm:grid-cols-2 place-items-center justify-around h-full">
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\c\c-original.svg' %}" alt="C">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">C</a>
-									</div>
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\cplusplus\cplusplus-original.svg' %}" alt="C++">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">C++</a>
-									</div>
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\java\java-original.svg' %}" alt="Java">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Java</a>
-									</div>
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\markdown\markdown-original.svg' %}" alt="Markdown">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Markdown</a>
-									</div>
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\python\python-original.svg' %}" alt="Python">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Python</a>
-									</div>
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\rst\reStructuredText.svg' %}" alt="restructuredText">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">restructuredText</a>
-									</div>
-
-								</div>
-							</div>
-
-
-							<!-- Machine Learning and Deep learning -->
-							<div class="relative w-full md:w-[45%]">
-								<div class="absolute top-[5%] h-[90%] right-0 border-r-3 border-matte-black">
-									<div class="whitespace-nowrap rotate-90 top-1/2 text-sm absolute -ml-[6.7rem] font-poppins font-medium text-matte-black select-none">Machine Learning & Deep Learning</div>
-								</div>
-
-								<div class="flex flex-wrap sm:flex-none sm:grid sm:grid-cols-2 place-items-center justify-around h-full">
-									<div class="h-28 w-[116px] my-1 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\jupyter\jupyter-original.svg' %}" alt="Jupyter">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Jupyter</a>
-									</div>
-
-									<div class="h-28 w-[116px] my-1 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\keras\keras-original.svg' %}" alt="Keras">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Keras</a>
-									</div>
-
-
-									<div class="h-28 w-[116px] my-1 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20 py-[21px]" src="{% static 'icon\nltk\nltk-plain-workmark.svg' %}" alt="NLTK">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">NLTK</a>
-									</div>
-
-									<div class="h-28 w-[116px] my-1 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\numpy\numpy-original.svg' %}" alt="Numpy">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Numpy</a>
-									</div>
-			
-									<div class="h-28 w-[116px] my-1 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\opencv\opencv-original.svg' %}" alt="OpenCV">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">OpenCV</a>
-									</div>
-			
-									<div class="h-28 w-[116px] my-1 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\pandas\pandas-original.svg' %}" alt="Pandas">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Pandas</a>
-									</div>
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20 py-[14px]" src="{% static 'icon\scikit-learn\scikit-original-wordmark.svg' %}" alt="Scikit-Learn">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Scikit-Learn</a>
-									</div>
-
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\tensorflow\tensorflow-original.svg' %}" alt="Tensorflow">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Tensorflow</a>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-
-						<div class="flex flex-col sm:flex-row mx-5 md:justify-between space-y-8 md:space-y-0">
-
-							<!-- Front-end -->
-							<div class="relative w-full md:w-[45%]">
-								<div class="absolute top-[5%] h-[90%] border-r-3 border-matte-black">
-									<div class="whitespace-nowrap rotate-[270deg] top-1/2 text-sm absolute -ml-[2.9rem] font-poppins font-medium text-matte-black select-none">Front-end</div>
-								</div>
-
-								<div class="flex flex-wrap sm:flex-none sm:grid sm:grid-cols-2 place-items-center justify-around h-full">
-
-									<div class="flex-auto h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\bootstrap\bootstrap-original.svg' %}" alt="Bootstrap">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Bootstrap</a>
-									</div>
-
-									<div class="flex-auto h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\css3\css3-original.svg' %}" alt="CSS3">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">CSS3</a>
-									</div>
-
-									<div class="flex-auto h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\html5\html5-original.svg' %}" alt="HTML5">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">HTML5</a>
-									</div>
-
-									<div class="flex-auto h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\tailwindcss\tailwindcss-original.svg' %}" alt="Tailwind">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Tailwind</a>
-									</div>
-
-								</div>
-							</div>
-
-
-							<!-- Back-end -->
-							<div class="relative w-full md:w-[45%]">
-								<div class="absolute top-[5%] h-[90%] right-0 border-r-3 border-matte-black">
-									<div class="whitespace-nowrap rotate-90 top-1/2 text-sm absolute -ml-5 font-poppins font-medium text-matte-black select-none">Back-end</div>
-								</div>
-
-								<div class="flex flex-wrap place-items-center justify-around h-full">
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\django\django-plain.svg' %}" alt="Django">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Django</a>
-									</div>
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\flask\flask-original.svg' %}" alt="Flask">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Flask</a>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-
-						<div class="flex flex-col sm:flex-row mx-5 md:justify-between space-y-8 md:space-y-0">
-
-							<!-- Database -->
-							<div class="relative w-full md:w-[45%]">
-								<div class="absolute top-[5%] h-[90%] border-r-3 border-matte-black">
-									<div class="whitespace-nowrap rotate-[270deg] top-1/2 text-sm absolute -ml-[2.9rem] font-poppins font-medium text-matte-black select-none">Database</div>
-								</div>
-
-								<div class="flex flex-wrap sm:flex-none sm:grid sm:grid-cols-2 place-items-center justify-around h-full">
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\firebase\firebase-original.svg' %}" alt="Firebase">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Firebase</a>
-									</div>
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\mongodb\mongodb-original.svg' %}" alt="MongoDB">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">MongoDB</a>
-									</div>
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\sqlalchemy\sqlalchemy-original.svg' %}" alt="SQLAlchemy">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">SQLAlchemy</a>
-									</div>
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\sqlite\sqlite-original.svg' %}" alt="SQLite">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">SQLite</a>
-									</div>
-
-								</div>
-							</div>
-
-
-							<!-- Others -->
-							<div class="relative w-full md:w-[45%]">
-								<div class="absolute top-[5%] h-[90%] right-0 border-r-3 border-matte-black">
-									<div class="whitespace-nowrap rotate-90 top-1/2 text-sm absolute -ml-[0.6rem] font-poppins font-medium text-matte-black select-none">Others</div>
-								</div>
-
-								<div class="flex flex-wrap place-items-center justify-around h-full">
-
-									<div class="w-full flex flex-wrap sm:flex-row place-items-center justify-around">
-										<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-											<img class="px-2 h-14 w-20" src="{% static 'icon\anaconda\anaconda-original.svg' %}" alt="Anaconda">
-											<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Anaconda</a>
-										</div>
-	
-										<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-											<img class="px-2 h-14 w-20" src="{% static 'icon\git\git-original.svg' %}" alt="Git">
-											<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Git</a>
-										</div>
-	
-									</div>
-
-									<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
-										<img class="px-2 h-14 w-20" src="{% static 'icon\pytest\pytest-original.svg' %}" alt="PyTest">
-										<a class="block w-full text-xs sm:text-sm text-center text-matte-black font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">PyTest</a>
-									</div>
-			
-								</div>
-							</div>
-
-						</div>
-
+					<div class="pt-5 text-base text-center font-poppins">
+						<a class="px-3 py-1 border-3 text-slate-500 hover:text-matte-purple border-slate-500 hover:border-matte-purple transition-all ease-in-out duration-300 select-none tracking-wide" href="#">
+							Download CV
+						</a>
 					</div>
+
 				</div>
 
 			</div>
 
 		</section>
 
+
+		<!--  --------- Skills ---------  -->
+		<section class="bg-matte-black pt-6 pb-16 min-h-screen">
+
+			<div class="pt-5">
+				<h3 class="text-base sm:text-lg xl:text-2xl text-center font-semibold font-poppins text-matte-purple uppercase tracking-[.15em] mb-8 md:mb-16 select-none">Skills</h3>
+			</div>
+
+			<div class="mx-8 md:mx-10 lg:mx-28 xl:mx-52 space-y-8 sm:space-y-10 lg:space-y-14">
+
+				<div class="flex flex-col sm:flex-row mx-5 md:justify-between space-y-8 md:space-y-0">
+
+					<!-- Programming & Markup Languages -->
+					<div class="relative py-5 bg-silver-grey w-full md:w-[45%] rounded-2xl border-l-[30px] border-matte-purple">
+						<div class="absolute top-[5%] h-[90%]">
+							<div class="whitespace-nowrap -rotate-90 top-[48%] text-base absolute -ml-40 font-poppins font-medium text-silver-grey select-none">Programming & Markup Languages</div>
+						</div>
+
+						<div class="flex flex-wrap sm:flex-none sm:grid sm:grid-cols-2 place-items-center justify-around h-full">
+
+							<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\c\c-original.svg' %}" alt="C">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">C</a>
+							</div>
+
+							<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\cplusplus\cplusplus-original.svg' %}" alt="C++">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">C++</a>
+							</div>
+
+							<div class="flex-auto h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\html5\html5-original.svg' %}" alt="HTML5">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">HTML5</a>
+							</div>
+
+							<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\java\java-original.svg' %}" alt="Java">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Java</a>
+							</div>
+
+							<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\jython\jython.svg' %}" alt="Jython">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Jython</a>
+							</div>
+
+							<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\markdown\markdown-original.svg' %}" alt="Markdown">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Markdown</a>
+							</div>
+
+							<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\python\python-original.svg' %}" alt="Python">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Python</a>
+							</div>
+
+							<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\rst\reStructuredText.svg' %}" alt="restructuredText">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">restructuredText</a>
+							</div>
+
+						</div>
+					</div>
+
+
+					<!-- Machine Learning and Deep learning -->
+					<div class="relative py-5 bg-silver-grey w-full md:w-[45%] rounded-2xl border-r-[30px] border-matte-purple">
+						<div class="absolute top-[5%] h-[90%] right-0">
+							<div class="whitespace-nowrap rotate-90 top-1/2 text-base absolute -ml-[7.65rem] font-poppins font-medium text-silver-grey select-none">Machine Learning & Deep Learning</div>
+						</div>
+
+						<div class="flex flex-wrap sm:flex-none sm:grid sm:grid-cols-2 place-items-center justify-around h-full">
+							<div class="h-28 w-[116px] my-1 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\jupyter\jupyter-original.svg' %}" alt="Jupyter">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Jupyter</a>
+							</div>
+
+							<div class="h-28 w-[116px] my-1 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\keras\keras-original.svg' %}" alt="Keras">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Keras</a>
+							</div>
+
+
+							<div class="h-28 w-[116px] my-1 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20 py-[21px]" src="{% static 'icon\nltk\nltk-plain-workmark.svg' %}" alt="NLTK">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">NLTK</a>
+							</div>
+
+							<div class="h-28 w-[116px] my-1 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\numpy\numpy-original.svg' %}" alt="Numpy">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Numpy</a>
+							</div>
+
+							<div class="h-28 w-[116px] my-1 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\opencv\opencv-original.svg' %}" alt="OpenCV">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">OpenCV</a>
+							</div>
+
+							<div class="h-28 w-[116px] my-1 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\pandas\pandas-original.svg' %}" alt="Pandas">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Pandas</a>
+							</div>
+
+							<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20 py-[14px]" src="{% static 'icon\scikit-learn\scikit-original-wordmark.svg' %}" alt="Scikit-Learn">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Scikit-Learn</a>
+							</div>
+
+
+							<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\tensorflow\tensorflow-original.svg' %}" alt="Tensorflow">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Tensorflow</a>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="flex flex-col sm:flex-row mx-5 md:justify-between space-y-8 md:space-y-0">
+
+					<!-- Front-end -->
+					<div class="relative py-5 bg-silver-grey w-full md:w-[45%] rounded-2xl border-l-[30px] border-matte-purple">
+						<div class="absolute top-[10%] h-[80%]">
+							<div class="whitespace-nowrap -rotate-90 top-[45%] text-base absolute -ml-14 font-poppins font-medium text-silver-grey select-none">Front-end</div>
+						</div>
+
+						<div class="flex flex-wrap place-items-center justify-around h-full">
+
+							<div class="w-full flex flex-wrap sm:flex-row place-items-center justify-around">
+
+								<div class="flex-auto h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+									<img class="px-2 h-14 w-20" src="{% static 'icon\bootstrap\bootstrap-original.svg' %}" alt="Bootstrap">
+									<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Bootstrap</a>
+								</div>
+
+								<div class="flex-auto h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+									<img class="px-2 h-14 w-20" src="{% static 'icon\css3\css3-original.svg' %}" alt="CSS3">
+									<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">CSS3</a>
+								</div>
+							</div>
+
+							<div class="flex-auto h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\tailwindcss\tailwindcss-original.svg' %}" alt="Tailwind">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Tailwind</a>
+							</div>
+
+						</div>
+					</div>
+
+
+					<!-- Back-end -->
+					<div class="relative py-5 bg-silver-grey w-full md:w-[45%] rounded-2xl border-r-[30px] border-matte-purple">
+						<div class="absolute top-[10%] h-[80%] right-0">
+							<div class="whitespace-nowrap rotate-90 top-[45%] text-base absolute -ml-6 font-poppins font-medium text-silver-grey select-none">Back-end</div>
+						</div>
+
+						<div class="flex flex-wrap place-items-center justify-around h-full">
+
+							<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\django\django-plain.svg' %}" alt="Django">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Django</a>
+							</div>
+
+							<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\flask\flask-original.svg' %}" alt="Flask">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Flask</a>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+				<div class="flex flex-col sm:flex-row mx-5 md:justify-between space-y-8 md:space-y-0">
+
+					<!-- Database -->
+					<div class="relative py-5 bg-silver-grey w-full md:w-[45%] rounded-2xl border-l-[30px] border-matte-purple">
+						<div class="absolute top-[10%] h-[80%]">
+							<div class="whitespace-nowrap rotate-[270deg] top-1/2 text-base absolute -ml-14 font-poppins font-medium text-silver-grey select-none">Database</div>
+						</div>
+
+						<div class="flex flex-wrap place-items-center justify-around h-full">
+
+							<div class="w-full flex flex-wrap sm:flex-row place-items-center justify-around">
+
+								<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+									<img class="px-2 h-14 w-20" src="{% static 'icon\firebase\firebase-original.svg' %}" alt="Firebase">
+									<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Firebase</a>
+								</div>
+
+								<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+									<img class="px-2 h-14 w-20" src="{% static 'icon\mongodb\mongodb-original.svg' %}" alt="MongoDB">
+									<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">MongoDB</a>
+								</div>
+
+							</div>
+
+							<div class="w-full flex flex-wrap sm:flex-row place-items-center justify-around">
+								<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+									<img class="px-2 h-14 w-20" src="{% static 'icon\postgresql\postgresql-original.svg' %}" alt="PostgreSQL">
+									<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">PostgreSQL</a>
+								</div>
+
+								<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+									<img class="px-2 h-14 w-20" src="{% static 'icon\sqlalchemy\sqlalchemy-original.svg' %}" alt="SQLAlchemy">
+									<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">SQLAlchemy</a>
+								</div>
+							</div>
+
+							<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\sqlite\sqlite-original.svg' %}" alt="SQLite">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">SQLite</a>
+							</div>
+
+						</div>
+					</div>
+
+
+					<!-- Others -->
+					<div class="relative py-5 bg-silver-grey w-full md:w-[45%] rounded-2xl border-r-[30px] border-matte-purple">
+						<div class="absolute top-[5%] h-[90%] right-0">
+							<div class="whitespace-nowrap rotate-90 top-1/2 text-base absolute -ml-3 font-poppins font-medium text-silver-grey select-none">Others</div>
+						</div>
+
+						<div class="flex flex-wrap place-items-center justify-around h-full">
+
+							<div class="w-full flex flex-wrap sm:flex-row place-items-center justify-around">
+
+								<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+									<img class="px-2 h-14 w-20" src="{% static 'icon\anaconda\anaconda-original.svg' %}" alt="Anaconda">
+									<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Anaconda</a>
+								</div>
+
+								<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+									<img class="px-2 h-14 w-20" src="{% static 'icon\git\git-original.svg' %}" alt="Git">
+									<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Git</a>
+								</div>
+							</div>
+
+							<div class="w-full flex flex-wrap sm:flex-row place-items-center justify-around">
+								<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+									<img class="px-2 h-14 w-20" src="{% static 'icon\grafana\grafana-original.svg' %}" alt="Grafana">
+									<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">Grafana</a>
+								</div>
+
+								<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+									<img class="px-2 h-14 w-20" src="{% static 'icon\nifi\apache_nifi.svg' %}" alt="NiFi">
+									<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">NiFi</a>
+								</div>
+							</div>
+
+							<div class="h-28 w-[116px] my-2 group grid place-items-center overflow-hidden cursor-pointer">
+								<img class="px-2 h-14 w-20" src="{% static 'icon\pytest\pytest-original.svg' %}" alt="PyTest">
+								<a class="block w-full text-xs sm:text-sm text-center text-matte-purple font-poppins font-medium lg:translate-y-8 lg:group-hover:transition-all lg:duration-500 lg:ease-in-out lg:group-hover:translate-y-0">PyTest</a>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<!--  --------- Work Experience ---------  -->
+		<section class="bg-silver-grey pt-6 pb-16 min-h-screen">
+
+			<div class="py-5">
+				<h3 class="text-base sm:text-lg xl:text-2xl text-center font-semibold font-poppins text-matte-purple uppercase tracking-[.15em] mb-8 md:mb-16 select-none">Work Experience</h3>
+			</div>
+
+			<div class="ml-12 mr-8 py-28 grid place-items-center">
+				<ol class="relative border-l-3 border-matte-purple">
+
+					<li class="mb-10 ml-8">
+						<span class="flex absolute -mt-2 -left-[21px] justify-center items-center w-10 h-10 bg-silver-grey rounded-full ring-2 ring-matte-black">
+							<svg class="h6 w-6 fill-matte-purple" xmlns="http://www.w3.org/2000/svg" viewBox="-30 0 550 512">
+								<!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+								<path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"/>
+							</svg>
+						</span>
+
+						<h5 class="flex items-center mb-4 text-lg font-semibold font-poppins text-matte-black tracking-[0.5rem]">Data Engineer</h5>
+
+						<div class="flex mt-1 mb-4">
+							<svg class="text-matte-black w-4 h-[14px] mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+								<!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+								<path d="M96 32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32zM448 464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192H448V464z"/>
+							</svg>
+							<time class="block text-sm font-normal leading-none text-gray-600 tracking-widest">Oct, 2022 - Present</time>
+						</div>
+
+						<div class="flex items-center">
+							<svg class="text-matte-black w-4 h-4 mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="-50 0 512 512">
+								<!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+								<path d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/>
+							</svg>
+							<a href="https://quantsys.com/" class="text-matte-black font-semibold tracking-widest">Quantsys</a>
+						</div>
+
+						<div class="flex items-center">
+							<svg class="text-matte-black w-4 h-4 mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+								<!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+								<path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/>
+							</svg>
+							<address>Florida, USA.</address>
+						</div>
+						
+					</li>
+				</ol>
+			</div>
+
+		</section>
 
 		<!--  --------- Projects ---------  -->
 		<section class="bg-matte-black min-h-screen">
@@ -537,10 +632,13 @@
 
 
 		<!--  --------- Education Section ---------  -->
-		<section class="bg-silver-grey min-h-screen">
-			<div class="grid place-items-center h-full ml-12 mr-8 sm:ml-20 sm:mr-16 lg:mx-0 py-16">
+		<section class="bg-silver-grey pt-6 pb-16 min-h-screen">
 
-				<h3 class="text-base sm:text-lg xl:text-2xl text-center font-semibold font-poppins text-matte-purple uppercase tracking-[.15em] pb-8 select-none">Education</h3>
+			<div class="py-5">
+				<h3 class="text-base sm:text-lg xl:text-2xl text-center font-semibold font-poppins text-matte-purple uppercase tracking-[.15em] mb-8 md:mb-16 select-none">Education</h3>
+			</div>
+
+			<div class="ml-12 mr-8 pt-6 md:pt-10 pb-10 md:pb-16 grid place-items-center">
 
 				<ol class="relative border-l-3 border-matte-purple">
 
@@ -567,7 +665,7 @@
 								<!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
 								<path d="M243.4 2.587C251.4-.8625 260.6-.8625 268.6 2.587L492.6 98.59C506.6 104.6 514.4 119.6 511.3 134.4C508.3 149.3 495.2 159.1 479.1 160V168C479.1 181.3 469.3 192 455.1 192H55.1C42.74 192 31.1 181.3 31.1 168V160C16.81 159.1 3.708 149.3 .6528 134.4C-2.402 119.6 5.429 104.6 19.39 98.59L243.4 2.587zM256 128C273.7 128 288 113.7 288 96C288 78.33 273.7 64 256 64C238.3 64 224 78.33 224 96C224 113.7 238.3 128 256 128zM127.1 416H167.1V224H231.1V416H280V224H344V416H384V224H448V420.3C448.6 420.6 449.2 420.1 449.8 421.4L497.8 453.4C509.5 461.2 514.7 475.8 510.6 489.3C506.5 502.8 494.1 512 480 512H31.1C17.9 512 5.458 502.8 1.372 489.3C-2.715 475.8 2.515 461.2 14.25 453.4L62.25 421.4C62.82 420.1 63.41 420.6 63.1 420.3V224H127.1V416z"/>
 							</svg>
-							<h6 class="text-matte-black font-semibold">North South University</h6>
+							<a href="http://www.northsouth.edu/" class="text-matte-black font-semibold">North South University</a>
 						</div>
 
 						<div class="flex items-center">
@@ -603,7 +701,7 @@
 								<!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
 								<path d="M243.4 2.587C251.4-.8625 260.6-.8625 268.6 2.587L492.6 98.59C506.6 104.6 514.4 119.6 511.3 134.4C508.3 149.3 495.2 159.1 479.1 160V168C479.1 181.3 469.3 192 455.1 192H55.1C42.74 192 31.1 181.3 31.1 168V160C16.81 159.1 3.708 149.3 .6528 134.4C-2.402 119.6 5.429 104.6 19.39 98.59L243.4 2.587zM256 128C273.7 128 288 113.7 288 96C288 78.33 273.7 64 256 64C238.3 64 224 78.33 224 96C224 113.7 238.3 128 256 128zM127.1 416H167.1V224H231.1V416H280V224H344V416H384V224H448V420.3C448.6 420.6 449.2 420.1 449.8 421.4L497.8 453.4C509.5 461.2 514.7 475.8 510.6 489.3C506.5 502.8 494.1 512 480 512H31.1C17.9 512 5.458 502.8 1.372 489.3C-2.715 475.8 2.515 461.2 14.25 453.4L62.25 421.4C62.82 420.1 63.41 420.6 63.1 420.3V224H127.1V416z"/>
 							</svg>
-							<h6 class="text-matte-black font-semibold">Dhaka Imperial College</h6>
+							<a href="https://imperialcollege.edu.bd/" class="text-matte-black font-semibold">Dhaka Imperial College</a>
 						</div>
 
 						<div class="flex items-center">
@@ -639,7 +737,7 @@
 								<!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
 								<path d="M243.4 2.587C251.4-.8625 260.6-.8625 268.6 2.587L492.6 98.59C506.6 104.6 514.4 119.6 511.3 134.4C508.3 149.3 495.2 159.1 479.1 160V168C479.1 181.3 469.3 192 455.1 192H55.1C42.74 192 31.1 181.3 31.1 168V160C16.81 159.1 3.708 149.3 .6528 134.4C-2.402 119.6 5.429 104.6 19.39 98.59L243.4 2.587zM256 128C273.7 128 288 113.7 288 96C288 78.33 273.7 64 256 64C238.3 64 224 78.33 224 96C224 113.7 238.3 128 256 128zM127.1 416H167.1V224H231.1V416H280V224H344V416H384V224H448V420.3C448.6 420.6 449.2 420.1 449.8 421.4L497.8 453.4C509.5 461.2 514.7 475.8 510.6 489.3C506.5 502.8 494.1 512 480 512H31.1C17.9 512 5.458 502.8 1.372 489.3C-2.715 475.8 2.515 461.2 14.25 453.4L62.25 421.4C62.82 420.1 63.41 420.6 63.1 420.3V224H127.1V416z"/>
 							</svg>
-							<h6 class="text-matte-black font-semibold">National Bank Public School and College</h6>
+							<a href="http://www.nbpsc.edu.bd/" class="text-matte-black font-semibold">National Bank Public School and College</a>
 						</div>
 
 						<div class="flex items-center">
